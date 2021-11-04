@@ -6,6 +6,6 @@ To use the extension, turn on "Developer Mode" in your chrome extensions tab, cl
 
 To add new sites to block, you can add it's host to the `host` array in `blocker.js`.
 
-![Kids Safety Blocker](https://github.com/srikanta30/Kids-Safety-Blocker/blob/main/screenshot.png "Kids Safety Blocker")
+![Kids Safety Blocker](https://github.com/srikanta30/Kids-Safety-Blocker/blob/main/snapshot.png "Kids Safety Blocker")
 
 
