@@ -1,4 +1,4 @@
-const hosts = [
+const blocked_hosts = [
   "000free.us",
   "0013langford.tumblr.com",
   "007angels.com",
@@ -41833,10 +41833,17 @@ const edusites = [
   "https://www.freecodecamp.org/",
   "https://brilliant.org/",
   "https://www.w3schools.com/",
+  "https://www.nasa.gov/kidsclub/",
+  "https://www.duolingo.com/",
+  "https://kids.nationalgeographic.com/",
+  "https://www.makemegenius.com/",
+  "https://bedtimemath.org/",
+  "https://scratch.mit.edu/",
+  "https://cs50.harvard.edu/",
 ];
 
-for (let i = 0; i < hosts.length; i++) {
-  if (window.location.hostname === hosts[i]) {
-    window.location.href = edusites[Math.floor(Math.random() * 5)];
+for (let i = 0; i < blocked_hosts.length; i++) {
+  if (window.location.hostname === blocked_hosts[i]) {
+    window.location.href = edusites[Math.floor(Math.random() * 12)];
   }
 }
