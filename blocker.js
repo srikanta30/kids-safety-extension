@@ -1,3 +1,4 @@
+//Add host urls to this array:
 const blocked_hosts = [
   "000free.us",
   "0013langford.tumblr.com",
