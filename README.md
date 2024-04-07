@@ -4,8 +4,6 @@ A Chrome extension that helps parents prevent their kids from visiting adult-the
 
 ## How To Use & Demo:
 
-https://www.linkedin.com/feed/update/urn:li:activity:6861910485516869632/
-
 To use the extension, turn on "Developer Mode" in your chrome extensions tab, clone this project and click on "Load Unpacked" & select this project folder.
 
 To add new sites to block, you can add it's host to the `host` array in `blocker.js`.
